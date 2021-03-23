@@ -1,0 +1,141 @@
+﻿/* Définition des polices personnalisées */
+body
+{
+    background: #EEEDEC ;
+}
+/* Header */
+
+header h1
+{
+    font-size: 3em;
+	margin-top: 2px;
+	color : black;
+}
+
+body{
+margin:0px;
+}
+
+#header{
+height:65px;
+background: white;
+}
+
+/* Navigation */
+
+li {
+list-style:none !important;
+color: black;
+padding:10px;
+font-size:20px;
+text-decoration:none;
+
+}
+ 
+nav ul {
+background-color: none;
+padding:0;
+margin:0;
+}
+ 
+nav ul li {
+list-style: none;
+line-height:44px;
+float:left;
+background-color: white;
+}
+ 
+nav ul li a {
+color: black;
+padding:10px;
+font-size:20px;
+text-decoration:none;
+}
+ 
+li a:hover {
+border-bottom:0px #FFF solid;
+color: black;
+font-weight: bold;
+}
+
+nav ul li ul { display:none; } /* Rend le menu déroulant caché par défaut */
+ 
+nav ul li:hover ul { /* Affiche la dropNav au survol de la souris avec la class .drop */
+z-index:99999;
+display:list-item !important;
+position:absolute;
+margin-top:0px;
+margin-left:-10px;
+}
+ 
+nav ul li:hover ul li {
+float:none;
+}
+
+img{
+	float:right;
+	margin-left:10px;
+        margin-right:50px;
+	margin-bottom:0px;
+	margin-top:0px;
+}
+
+/* Corps */
+
+img {
+  width: 700px;
+  display: block;
+  margin-left: 100px;
+  margin-right: 350px;
+}
+
+.flotte {
+float:left;
+}
+
+section
+{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+section h1
+{
+	font-family: 'BallparkWeiner', serif;
+    font-size: 3em;
+    font-weight: normal;text-align: center;
+}
+article, aside
+{
+    text-align: justify;
+}
+img {
+	max-width: 75%;
+	height: auto;
+
+}
+article
+{
+    margin-right: 50px;
+    flex: 3;
+}
+article p
+{
+    font-size: 0.8em;
+}
+aside
+{
+    flex: 1.2;
+    position: relative;
+    background-color: grey;
+    box-shadow: 2px 5px 5px #1c1a19;
+    border-radius: 2px;
+    padding: 5px;
+    color: black;
+    font-size: 0.9em;
+}
+aside img
+{
+    margin-right: 300px;
+}
+
